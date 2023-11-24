@@ -37,6 +37,7 @@
 }
 
 .sidebar footer a {
+  width: 100%;
   background: transparent;
   color: var(--green-500);
   border: 1px solid var(--green-500);
@@ -48,11 +49,26 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   transition: color 0.1s, background-color 0.1s;
+}
+
+.sidebar footer a svg {
+  margin-right: 0.5rem;
 }
 
 .sidebar footer a :hover {
   background: var(--green-500);
   color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar footer {
+    display: flex;
+    justify-content: center;
+  }
+  .sidebar footer a {
+    width: 50%;
+    min-width: 180px;
+  }
 }
