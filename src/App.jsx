@@ -16,21 +16,7 @@ const posts = [
     id: 1,
     author: {
       avatarUrl: 'https://github.com/SuayMack.png',
-      name: 'PiscilaCS',
-      role: 'Software Engineer'
-    },
-    content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: '👉 jane.design/doctorcare' }
-    ],
-    publishedAt: new Date('2023-11-23 08:13:00')
-  },
-  {
-    id: 2,
-    author: {
-      avatarUrl: 'https://github.com/SuayMack.png',
-      name: 'PiscilaCS',
+      name: 'PriscilaCS',
       role: 'Software Engineer'
     },
     content: [
@@ -39,6 +25,20 @@ const posts = [
       { type: 'link', content: '👉 jane.design/doctorcare' }
     ],
     publishedAt: new Date('2023-11-20 12:13:00')
+  },
+  {
+    id: 2,
+    author: {
+      avatarUrl: 'https://github.com/octocat.png',
+      name: 'octocat',
+      role: 'Software Engineer'
+    },
+    content: [
+      { type: 'paragraph', content: 'Fala galeraa 👋' },
+      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
+      { type: 'link', content: '👉 jane.design/doctorcare' }
+    ],
+    publishedAt: new Date('2023-11-23 08:13:00')
   }
 ]
 
